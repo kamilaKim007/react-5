@@ -1,0 +1,46 @@
+.deha{
+    font-family: 'Cormorant';
+    &__desk{
+        display: flex;
+        &-text{
+            position: relative;
+            text-align: center;
+            width: 627px;
+            height: 272px;
+            left: 100px;
+            top: 160px;
+            &-title{
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 34px;
+                text-transform: uppercase;
+                color: #0F303F;
+                justify-content: center;
+                padding-right: 100px;
+            }
+            &-subtitle{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 19px;
+                color: #0F303F;
+                opacity: 0.7;
+                width: 550px;
+            }
+        }
+        &-img1{
+            position: relative;
+            width: 400px;
+            height: 350px;
+            left: 100px;
+            background: url('../assets/Deha/deha1.png');
+        }
+        &-img2{
+            position: absolute;
+            width: 250px;
+            height: 220px;
+            top: 250px;
+            left: 150px;
+            background: url('../assets/Deha/deha2.png');
+        }
+    }
+}
